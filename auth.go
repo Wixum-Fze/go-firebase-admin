@@ -10,6 +10,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
+	_ "google.golang.org/api/identitytoolkit/v3"
 	"google.golang.org/api/iterator"
 )
 
