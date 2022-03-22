@@ -10,7 +10,6 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"google.golang.org/api/identitytoolkit/v3"
 	"google.golang.org/api/iterator"
 )
 
@@ -345,9 +344,10 @@ func (auth *Auth) UpdateUser(ctx context.Context, user *User) error {
 
 // SendPasswordResetEmail sends password reset for the given user
 // Only useful for the Email/Password provider
-func (auth *Auth) SendPasswordResetEmail(ctx context.Context, email string) error {
+func (auth *Auth) SendPasswordResetEmail(ctx context.Context, email, url string) error {
 	_, err := auth.client.GetOobConfirmationCode(&identitytoolkit.Relyingparty{
 		Email:       email,
+		ContinueUrl: url,
 		RequestType: "PASSWORD_RESET",
 	}).Context(ctx).Do()
 	if err != nil {
