@@ -1,9 +1,9 @@
 # go-firebase-admin
 
-[![Build Status](https://travis-ci.org/acoshift/go-firebase-admin.svg?branch=master)](https://travis-ci.org/acoshift/go-firebase-admin)
-[![Coverage Status](https://coveralls.io/repos/github/acoshift/go-firebase-admin/badge.svg?branch=master)](https://coveralls.io/github/acoshift/go-firebase-admin?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/acoshift/go-firebase-admin)](https://goreportcard.com/report/github.com/acoshift/go-firebase-admin)
-[![GoDoc](https://godoc.org/github.com/acoshift/go-firebase-admin?status.svg)](https://godoc.org/github.com/acoshift/go-firebase-admin)
+[![Build Status](https://travis-ci.org/Wixum-Fze/go-firebase-admin.svg?branch=master)](https://travis-ci.org/Wixum-Fze/go-firebase-admin)
+[![Coverage Status](https://coveralls.io/repos/github/Wixum-Fze/go-firebase-admin/badge.svg?branch=master)](https://coveralls.io/github/Wixum-Fze/go-firebase-admin?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Wixum-Fze/go-firebase-admin)](https://goreportcard.com/report/github.com/Wixum-Fze/go-firebase-admin)
+[![GoDoc](https://godoc.org/github.com/Wixum-Fze/go-firebase-admin?status.svg)](https://godoc.org/github.com/Wixum-Fze/go-firebase-admin)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 ## Table of Contents
@@ -38,7 +38,7 @@ please use any package manager to fix version, there will be a lot of breaking c
 
 Install the package with go:
 
-    go get github.com/acoshift/go-firebase-admin
+    go get github.com/Wixum-Fze/go-firebase-admin
 
 ## Features
 
@@ -108,7 +108,7 @@ import (
   "io/ioutil"
 
   "google.golang.org/api/option"
-  "github.com/acoshift/go-firebase-admin"
+  "github.com/Wixum-Fze/go-firebase-admin"
 )
 
 func main() {
@@ -132,7 +132,7 @@ import (
   "io/ioutil"
 
   "google.golang.org/api/option"
-  "github.com/acoshift/go-firebase-admin"
+  "github.com/Wixum-Fze/go-firebase-admin"
 )
 
 func main() {
@@ -170,7 +170,7 @@ import (
   "io/ioutil"
 
   "google.golang.org/api/option"
-  "github.com/acoshift/go-firebase-admin"
+  "github.com/Wixum-Fze/go-firebase-admin"
 )
 
 func main() {
@@ -226,7 +226,7 @@ import (
   "io/ioutil"
 
   "google.golang.org/api/option"
-  "github.com/acoshift/go-firebase-admin"
+  "github.com/Wixum-Fze/go-firebase-admin"
 )
 
 func main() {
@@ -314,7 +314,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [1]: https://opensource.googleblog.com/2017/05/open-sourcing-firebase-sdks.html
-[2]: https://godoc.org/github.com/acoshift/go-firebase-admin
+[2]: https://godoc.org/github.com/Wixum-Fze/go-firebase-admin
 [3]: https://firebase.google.com/docs/auth/admin/create-custom-tokens
 [4]: https://firebase.google.com/docs/auth/admin/verify-id-tokens
 [5]: https://firebase.google.com/docs/auth/admin/manage-users
