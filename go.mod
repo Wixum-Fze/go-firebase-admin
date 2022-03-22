@@ -1,4 +1,4 @@
-module go-firebase-admin
+module github.com/Wixum-Fze/go-firebase-admin
 
 go 1.17
 
